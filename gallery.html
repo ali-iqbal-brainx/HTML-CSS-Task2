@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: deepskyblue;
+        }
+
+        .header img {
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+        }
+
+        .navbar {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .navbar li {
+            height: 10px;
+            list-style-type: none;
+            display: inline-block;
+
+        }
+
+        
+
+        .active {
+            color: purple;
+        }
+
+        li a{
+            text-decoration: none;
+            border-right: 1px solid black;
+            padding: 5px;
+        }
+        .footer img {
+            width: 100%;
+            height: 130px;
+            background-repeat: no-repeat;
+        }
+        .footer img{
+            width: 100%;
+        }
+        .inactive{
+            color:blue;
+        }
+        .img_gal{
+            margin: 20px;
+        }
+        .img_gal img{
+            border: 5px solid blue;
+            height: 185px;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="margin: 10px;">
+        <img src="https://www.ankitweblogic.com/html/html_img/exercise1/header.png" alt="Header">
+    </div>
+    <div class="navbar" style="width: 100%; height: auto;">
+        <ul>
+            <li><a class="inactive" href="/home.html">Home</a></li>
+            <li><a class="inactive" href="/course.html">Course</a></li>
+            <li><a class="inactive" href="/about.html">About</a></li>
+            <li><a class="inactive" href="/contact.html">Contact</a></li>
+            <li><a href="/gallery.html" class="active"  style="border-right: none;">Gallery</a></li>
+        </ul>
+    </div>
+
+
+    <div class="main_content" style="text-align: center;">
+        <h1 style="text-align: center; margin-top: 20px;"><u>Image Gallery</u></h1>
+        <div class="img_gal">
+            <img src="https://www.w3schools.com/html/workplace.jpg" alt="Laptop Image">
+            <img src="https://www.w3schools.com/html/workplace.jpg" alt="Laptop Image">
+            <img src="https://www.w3schools.com/html/workplace.jpg" alt="Laptop Image">
+            <img src="https://www.w3schools.com/html/workplace.jpg" alt="Laptop Image">
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+    <div class="footer" style="margin: 10px;">
+        <img src="https://www.ankitweblogic.com/html/html_img/exercise1/footer.png" alt="Footer">
+    </div>
+
+</body>
+
+</html>
